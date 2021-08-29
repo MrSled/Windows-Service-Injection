@@ -6,7 +6,9 @@ C++ code to help migrating from a process to a target process, by injecting your
   - Compile the code using g++ inject.cpp -o inject.exe.
   - Upload your exe file to the target machine.
   - Configure the listner in new metasploit window.
+  
     ![Screenshot 2021-08-29 171155](https://user-images.githubusercontent.com/48598374/131255463-c8d7a557-3822-47c5-885f-ff6c4a6a038d.png)
+    
   - Choose the target process to which you would like to migrate.
   - run migrate.exe <process_id>
 
